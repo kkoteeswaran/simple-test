@@ -1,0 +1,30 @@
+{
+  "name": "wdio-helpers",
+  "version": "4.2.0",
+  "description": "helper modules for webdriverio tests",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/behance/wdio-helpers.git"
+  },
+  "author": "",
+  "license": "Adobe",
+  "bugs": {
+    "url": "https://github.com/behance/wdio-helpers/issues"
+  },
+  "homepage": "https://github.com/behance/wdio-helpers#readme",
+  "scripts": {
+    "selenium:setup": "selenium-standalone install",
+    "wdio:sauce": "NODE_ENV=qa wdio test/sauce.wdio.conf.js"
+  },
+  "dependencies": {
+    "babel-preset-behance": "13.0.1",
+    "babel-register": "^7.0.0-alpha.18",
+    "selenium-standalone": "^6.2.0",
+    "selenium-webdriver": "^2.47.0",
+    "wdio-jasmine-framework": "^0.2.5",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-sauce-service": "^0.2.5",
+    "webdriverio": "^4.2.11"
+  }
+}

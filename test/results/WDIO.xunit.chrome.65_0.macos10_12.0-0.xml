@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="simple_test" timestamp="2018-04-18T16:42:20" time="12.244" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="414605467c339582d12a276125406551"/>
+      <property name="suiteName" value="Simple Test: "/>
+      <property name="capabilities" value="chrome.65_0.macos10_12"/>
+      <property name="file" value="./test/specs/simpleTest.js"/>
+    </properties>
+    <testcase classname="chrome.65_0.macos10_12.simple_test" name="check_for_learn_tab" time="11.189">
+      <error message="Failed: unknown error: failed to change window state to normal, current state is maximized"/>
+      <system-err>
+        <![CDATA[
+Error: An unknown server-side error occurred while processing the command.
+    at windowHandleSize([object Object]) - at UserContext.<anonymous> (test/specs/simpleTest.js:3:13)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
